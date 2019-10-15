@@ -6,7 +6,7 @@ def my_each(array)
     i += 1
   end
   if new_array.length <= 0
-    array.map {|name| new_array << "#{name}"}
+    array.map {|number| new_array << "#{number}"}
     new_array
   end
 end
